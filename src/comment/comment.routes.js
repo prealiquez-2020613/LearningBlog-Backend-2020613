@@ -7,6 +7,6 @@ const api = Router();
 api.post('/addCommentary', [addCommentaryValidator], addCommentary);
 api.put('/updateCommentary/:id', [updateCommentaryValidator], updateCommentary);
 api.delete('/deleteCommentary/:id', deleteCommentary);
-api.get('/getCommentsByPost', getCommentsByPost)
+api.get('/getCommentsByPost/:postId', getCommentsByPost)
 
 export default api;
