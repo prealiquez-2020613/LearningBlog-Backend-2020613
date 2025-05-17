@@ -21,6 +21,10 @@ const postSchema = new Schema(
             type: String,
             required: [true, 'Author name is required'],
             maxLength: [100, 'Author name cannot exceed 100 characters'],
+        },
+        createdAt: {
+            type: Date,
+            default: Date.now
         }
     }
 );
