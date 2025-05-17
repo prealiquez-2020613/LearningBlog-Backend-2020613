@@ -1,0 +1,505 @@
+{
+	"info": {
+		"_postman_id": "fe2a668a-20bb-4f94-b5da-14ee4fec5ddd",
+		"name": "LearningBlog - 2020613",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37951884"
+	},
+	"item": [
+		{
+			"name": "4to-Taller",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "4to Diversificado - Parte 1",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyectos elaborados para la materia de taller en 4to diversificado. Enlace: https://github.com/prealiquez-2020613/4to_Diversificado-2020613/tree/main/Taller",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4to-Tecno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "4to Diversificado - Parte 2",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TECNOLOGÍA",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyectos elaborados para la materia de tecnología en 4to diversificado. Enlace: https://github.com/prealiquez-2020613/4to_Diversificado-2020613/tree/main/Tecnología",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4to-TICS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "4to Diversificado - Parte 3",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TICS",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyectos elaborados para la materia de TICS en 4to diversificado. Enlace: https://github.com/prealiquez-2020613/4to_Diversificado-2020613/tree/main/TICS",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5to-Taller",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "5to Diversificado - Parte 1",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyectos elaborados para la materia de taller en 5to diversificado. Enlace: https://github.com/prealiquez-2020613/5to_Diversificado-2020613-Parte_2",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5to-Tecno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "5to Diversificado - Parte 2",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TECNOLOGÍA",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyectos elaborados para la materia de tecnología en 5to diversificado. Enlace: https://github.com/prealiquez-2020613/5to_Diversificado-2020613-Parte_1/tree/main/Tecnología",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5to-TICS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "5to Diversificado - Parte 3",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TICS",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyectos elaborados para la materia de tecnología en 5to diversificado. Enlace: https://github.com/prealiquez-2020613/5to_Diversificado-2020613-Parte_1/tree/main/TICS",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adoption-System",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Adoption System - 6to Diversificado",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Laboratorio #2 | Primer Bimestre | Enlace: https://github.com/prealiquez-2020613/AdoptionSystem-2020613",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "School-System",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "School System - 6to Diversificado",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TICS",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Laboratorio #2 | Primer Bimestre | Enlace: https://github.com/prealiquez-2020613/SchoolSystem-2020613",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gestor-Opiniones",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Gestor de Opiniones - 6to Diversificado",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TICS",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Laboratorio #3 | Primer Bimestre | Enlace: https://github.com/prealiquez-2020613/Laboratorio-3-Gestor-de-opiniones-PabloRealiquez",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COPEREX",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "COPEREX - 6to Diversificado",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Laboratorio #3 | Primer Bimestre | Enlace: https://github.com/prealiquez-2020613/COPEREXSys-2020613",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Proyecto-Bimestral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Proyecto Bimestral - 6to Diversificado",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Examen | Primer Bimestre | Enlace: https://github.com/prealiquez-2020613/Proyecto-Bimestral---avance",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Pablo Realiquez",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3626/v1/post/addPost",
+					"host": [
+						"localhost"
+					],
+					"port": "3626",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
